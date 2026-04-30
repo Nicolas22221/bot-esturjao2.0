@@ -19,7 +19,7 @@ client.once('ready', async () => {
 
     client.user.setPresence({
       activities: [{
-        name: 'quero um labubu aquático 🐟',
+        name: 'grande e medonho, igual o lucas 🐟',
         type: ActivityType.Playing
       }],
       status: 'online'
