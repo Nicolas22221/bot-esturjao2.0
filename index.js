@@ -13,10 +13,6 @@ client.once('ready', async () => {
   console.log(`Bot online como ${client.user.tag}`);
 
   try {
-    await client.user.setUsername('esturjão do rio');
-
-    await client.user.setAvatar('https://imgs.search.brave.com/L7JijeglpkVnftwWTm1Is0IUYo6dDjd5hgYjLEIGwps/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9yZW5k/ZXIuYWxiaW9ub25s/aW5lLmNvbS92MS9p/dGVtL1Q4X0ZJU0hf/RlJFU0hXQVRFUl9B/TExfQ09NTU9OLnBuZz9jb3VudD0xJnF1YWxpdHk9MQ');
-
     client.user.setPresence({
       activities: [{
         name: 'Eu odeio masmorra em grupo!🐟',
